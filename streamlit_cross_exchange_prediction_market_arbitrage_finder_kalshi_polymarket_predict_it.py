@@ -140,7 +140,7 @@ def fetch_polymarket() -> List[Quote]:
 
     # -------- 1) Paged discovery (3 pages × 1000) with de-dupe --------
     PAGE_LIMIT = 1000
-    PAGE_COUNT = 6
+    PAGE_COUNT = 10
     markets_map: Dict[str, dict] = {}
     total_fetched = 0
 
