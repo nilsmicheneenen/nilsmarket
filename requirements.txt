@@ -1,0 +1,5 @@
+streamlit>=1.33
+requests>=2.31
+pandas>=2.0
+numpy>=1.25
+rapidfuzz>=3.9
